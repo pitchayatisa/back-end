@@ -31,7 +31,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).send("หน้าแรกของ api express");
+  res.status(200).send("api express started");
 });
 
 // path สำหรับ MongoDB ของเรา
